@@ -8,6 +8,7 @@ In this project, we used many Python libraries such as :
 + Pandas
 + Streamlit
 + Yahoo Finance
++ Datetime
 
 This project is composed of 4 tabs:
 
