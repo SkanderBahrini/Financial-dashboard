@@ -20,7 +20,9 @@ This project is composed of 4 tabs:
 
 If you want to retrieve data directly from Yahoo Finance you will face this problem:
 
-![Capture d'écran 2023-11-16 212508](https://github.com/SkanderBahrini/Financial-dashboard/assets/74383561/190be8b2-c756-474b-96ca-5390b694b899)
+![Capture d'écran 2023-11-14 112302](https://github.com/SkanderBahrini/Financial-dashboard/assets/74383561/d1f82385-cdb1-4da5-85d9-7538b376d73b)
+
+
 
 Yahoo is blocking you and does not allow data retrieval.
 
@@ -37,6 +39,8 @@ API will provide to Yahoo Finance:
 + Cookie: A cookie will allow the website to remember the user on each visit
 
 + Crumb: It is a token that will protect the user from Cross-site forgery which is a cyber attack that will execute a command on behalf of the user. By using this token we will ensure that each command executed comes from a trusted part.
+
+Credit:[ranaroussi] (https://github.com/ranaroussi/yfinance/issues/1729)
 
 # First step:
 The client needs to enter company Ticker and the desired interval period.
