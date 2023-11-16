@@ -51,7 +51,7 @@ It will allow the user to display according to data entered in the desired chart
 
 PS: The user can use the sidebar to choose the color of the bar chart.
 
-# Tab4: Compared company's stocks
+# Tab4: Compare company's stocks
 
 This section allows the user to enter different Tickers and compare the stocks displayed in the line chart.
 
