@@ -16,6 +16,27 @@ This project is composed of 4 tabs:
 * Tab3: Display company chart
 * Tab4: Compared between companies' stocks
 
+# ⛔ Important Notice 
+
+If you want to retrieve data directly from Yahoo Finance you will face this problem:
+
+![Capture d'écran 2023-11-16 212508](https://github.com/SkanderBahrini/Financial-dashboard/assets/74383561/190be8b2-c756-474b-96ca-5390b694b899)
+
+Yahoo is blocking you and does not allow data retrieval.
+
+# 💡 Solution
+
+To avoid this problem you need to use Yahoo Finance API:
+
+API will provide to Yahoo Finance:
+
++ User-Agent: This will allow the website to authenticate the user by providing a web browser and it is version and type of operating system used.
+
+  example: Mozilla/5.0 (Windows NT 6.1; Win64; x64)
+
++ Cookie: A cookie will allow the website to remember the user on each visit
+
++ Crumb: It is a token that will protect the user from Cross-site forgery which is a cyber attack that will execute a command on behalf of the user. By using this token we will ensure that each command executed comes from a trusted part.
 
 # First step:
 The client needs to enter company Ticker and the desired interval period.
@@ -49,9 +70,13 @@ It will allow the user to display according to data entered in the desired chart
   
 ![tab32](https://github.com/SkanderBahrini/Financial-dashboard/assets/74383561/661c7a63-f013-4a88-99fb-8a0ff74c4d6e)
 
++ Metrics
+  
+![mean](https://github.com/SkanderBahrini/Financial-dashboard/assets/74383561/eecad7aa-c67f-4794-8901-d4945c65410a)
+
 PS: The user can use the sidebar to choose the color of the bar chart.
 
-# Tab4: Compare company's stocks
+# Tab4: Compare the company's stocks
 
 This section allows the user to enter different Tickers and compare the stocks displayed in the line chart.
 
