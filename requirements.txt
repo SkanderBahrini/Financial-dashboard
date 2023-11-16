@@ -1,4 +1,7 @@
+numpy
 pandas
+matplotlib
 plotly
-streamlit
+datetime
 yfinance
+streamlit
