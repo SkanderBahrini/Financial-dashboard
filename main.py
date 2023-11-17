@@ -131,7 +131,14 @@ title = """
 
 st.markdown(title, unsafe_allow_html= True )
 
-c2.image('.\images\yahoo.png', caption='Data Source', width=200, output_format='auto')
+
+
+from PIL import Image
+img = Image.open("yahoo.png")
+
+c2.image(img, caption='Data Source')
+
+
 
 # render data from html page
 
