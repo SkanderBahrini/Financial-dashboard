@@ -10,6 +10,15 @@ In this project, we used many Python libraries such as :
 + Yahoo Finance
 + Datetime
 
+# 🐍 Streamlit Web app
+
+To design this project we opted for a Python library named Streamlit that allows users to design their web application using Python.
+The advantages of Streamlit are:
+
+* 👌 Simplicity
+* 📈 Integrated with data science libraries
+* 🆕 Automatic updates
+
 This project is composed of 4 tabs:
 
 * Tab1: Display company info
