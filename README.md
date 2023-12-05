@@ -1,4 +1,4 @@
-# Financial-dashboard
+# 📈 Financial-dashboard
 
 This project aims to create a financial dashboard containing Yahoo Finance stock information.
 
