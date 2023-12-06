@@ -100,7 +100,7 @@ This section allows the user to enter different Tickers and compare the stocks d
 
 Thank you for your attention!
 
-Happy Coding ;)
+Happy Coding  😊
 
 
 
